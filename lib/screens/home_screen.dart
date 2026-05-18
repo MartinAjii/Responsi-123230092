@@ -123,7 +123,7 @@ class _HomeScreenState extends State<HomeScreen>
           ),
           title: Text(meal.name),
           subtitle: Text(
-            meal.category,
+            "${meal.category} • ${meal.area}",
           ),
 
           trailing: IconButton(
