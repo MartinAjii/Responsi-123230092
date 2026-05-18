@@ -68,7 +68,7 @@ class _DetailScreenState extends State<DetailScreen> {
               ),
             ),
             Text("Category: ${meal.category}"),
-            Text("Area: ${meal.area}"),
+            Text("Country: ${meal.area}"),
             const SizedBox(height: 10),
             Text(meal.instructions),
             const SizedBox(height: 20),
